@@ -13,15 +13,14 @@
             background-repeat: no-repeat;
             background-attachment: fixed;
             font-family: Arial, sans-serif;
-        }
-        .container {
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
         }
         .pdf-container {
-            width: 80%;
+            width: 90%;
+            max-width: 800px;
             height: 90vh;
             background: rgba(255, 255, 255, 0.8);
             border-radius: 10px;
@@ -36,10 +35,8 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="pdf-container">
-            <iframe src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/LordPasc/estatutos/main/estatutos_ateneo_realsitiense.pdf&embedded=true"></iframe>
-        </div>
+    <div class="pdf-container">
+        <iframe src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/LordPasc/estatutos/main/estatutos_ateneo_realsitiense.pdf&embedded=true"></iframe>
     </div>
 </body>
 </html>
